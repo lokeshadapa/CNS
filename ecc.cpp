@@ -64,6 +64,11 @@ void pointdoub(mpz_t x1,mpz_t y1,mpz_t p,mpz_t a)
 	cout<<"2(x1,y1) "<<"("<<k2<<","<<sub1<<")"<<endl;
 }
 
+void l_to_r(mpz_t X,mpz_t Y,mpz_t k)
+{
+	
+}
+
 	
 int main()
 {
