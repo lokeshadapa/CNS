@@ -1,3 +1,4 @@
+//point adddition, point multiplication, scalar mutiplication in ecc
 #include<bits/stdc++.h>
 #include<gmpxx.h>
 #include<string.h>
