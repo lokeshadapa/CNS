@@ -24,6 +24,7 @@ int main()
 		mpz_inits(a[i],m[i],mi[i],ci[i],NULL);
 	}
 	mpz_inits(x,NULL);
+	cout<<"a[i]-remainders and m[i]-divisors"<<endl;
 	for(int i=0;i<noe;i++)
 	{
 		cout<<"enter a["<<i+1<<"]and m["<<i+1<<"]\n";

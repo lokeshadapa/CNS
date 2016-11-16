@@ -1,4 +1,4 @@
-//point adddition, point multiplication, scalar mutiplication in ecc...
+//point adddition, point doubling, scalar mutiplication in ecc...
 
 #include<bits/stdc++.h>
 #include<gmpxx.h>
@@ -160,6 +160,7 @@ int main()
 	string k;
 	mpz_t X,Y;
 	mpz_inits(X,Y,NULL);
+        //cout<<"hi"<<endl;
 	mpz_set_ui(X,5); mpz_set_ui(Y,1);
  	for(int i=0;i<num;i++)
  	{
@@ -168,10 +169,10 @@ int main()
 	//cout<<k.length()<<endl;
 	//pp=pointdoub(X,Y,p,a);
 	//cout<<pp.x<<" "<<pp.y<<endl;
-    //pp=l_to_r(X,Y,k,p,a,b);
-    //cout<<pp.x<<" "<<pp.y<<endl;
-    pp=r_to_l(X,Y,k,p,a,b);
+    pp=l_to_r(X,Y,k,p,a,b);
     cout<<pp.x<<" "<<pp.y<<endl;
+    //pp=r_to_l(X,Y,k,p,a,b);
+    //cout<<pp.x<<" "<<pp.y<<endl;
  	}
 	return 0;	
 }
